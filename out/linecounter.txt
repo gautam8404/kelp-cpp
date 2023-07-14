@@ -1,0 +1,193 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2023-06-11 23:52:50
+count workspace : /home/gautam/Code_Workshop/Projects/chess_engine
+total files : 165
+total code lines : 15925
+total comment lines : 1046
+total blank lines : 2040
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .cpp|           3250|            299|            732|     20|
+   |             .h|            513|             36|            153|    3.2|
+   |           .txt|            627|            504|            225|    3.9|
+   |               |             40|              0|              0|   0.25|
+   |          .json|           7206|              0|             30|     45|
+   |         .cmake|            525|              0|            147|    3.3|
+   |   .check_cache|              3|              0|              0|  0.019|
+   |         .ninja|            555|              0|            246|    3.5|
+   |           .log|           1068|             24|             90|    6.7|
+   |             .c|           1914|            183|            417|     12|
+   |           .xml|            222|              0|              0|    1.4|
+   |           .iml|              2|              0|              0|  0.013|
+   -------------------------------------------------------------------------
+.gitignore, code is 3, comment is 0, blank is 0.
+.idea/.gitignore, code is 8, comment is 0, blank is 0.
+.idea/.name, code is 1, comment is 0, blank is 0.
+.idea/chess_engine.iml, code is 2, comment is 0, blank is 0.
+.idea/copyright/gautam.xml, code is 5, comment is 0, blank is 0.
+.idea/copyright/profiles_settings.xml, code is 7, comment is 0, blank is 0.
+.idea/customTargets.xml, code is 15, comment is 0, blank is 0.
+.idea/misc.xml, code is 7, comment is 0, blank is 0.
+.idea/modules.xml, code is 8, comment is 0, blank is 0.
+.idea/tools/External Tools.xml, code is 9, comment is 0, blank is 0.
+.idea/workspace.xml, code is 171, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/query/cache-v2, code is 0, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1, code is 0, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/query/codemodel-v2, code is 0, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/query/toolchains-v1, code is 0, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/reply/cache-v2-69cc348a4eab414f6a19.json, code is 1743, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-548759b30c88795c19d1.json, code is 169, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9b2a5d9e55363acc3548.json, code is 60, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json, code is 14, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/reply/index-2023-06-07T07-29-05-0576.json, code is 108, comment is 0, blank is 0.
+cmake-build-debug/.cmake/api/v1/reply/target-kelp-Debug-954444c540aa0ddfd639.json, code is 213, comment is 0, blank is 2.
+cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-5e864d45b6495c775afc.json, code is 95, comment is 0, blank is 8.
+cmake-build-debug/.ninja_deps, it is a binary file.
+cmake-build-debug/.ninja_log, code is 15, comment is 0, blank is 0.
+cmake-build-debug/build.ninja, code is 141, comment is 0, blank is 62.
+cmake-build-debug/chess_engine, it is a binary file.
+cmake-build-debug/cmake_install.cmake, code is 46, comment is 0, blank is 8.
+cmake-build-debug/CMakeCache.txt, code is 198, comment is 168, blank is 72.
+cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake, code is 55, comment is 0, blank is 17.
+cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake, code is 64, comment is 0, blank is 19.
+cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out, it is a binary file.
+cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c, code is 638, comment is 61, blank is 139.
+cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out, it is a binary file.
+cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 620, comment is 63, blank is 143.
+cmake-build-debug/CMakeFiles/clion-Debug-log.txt, code is 4, comment is 0, blank is 0.
+cmake-build-debug/CMakeFiles/clion-environment.txt, code is 2, comment is 0, blank is 1.
+cmake-build-debug/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+cmake-build-debug/CMakeFiles/CMakeOutput.log, code is 353, comment is 8, blank is 30.
+cmake-build-debug/CMakeFiles/kelp.dir/gui/gui.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/kelp.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/modules/board/bitboards/bitboard.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/modules/board/bitboards/bitboard_attacks.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/modules/board/bitboards/bitboard_moves.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/modules/board/bitboards/lookupTable/lookup_tables.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/modules/board/board.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/modules/board/fen.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/modules/evaluator/evaluator.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/kelp/modules/move_gen/move_gen.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/kelp.dir/main.cpp.o, it is a binary file.
+cmake-build-debug/CMakeFiles/rules.ninja, code is 44, comment is 0, blank is 20.
+cmake-build-debug/CMakeFiles/TargetDirectories.txt, code is 3, comment is 0, blank is 0.
+cmake-build-debug/kelp, it is a binary file.
+cmake-build-debug/Testing/Temporary/LastTest.log, code is 3, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/query/cache-v2, code is 0, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1, code is 0, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/query/codemodel-v2, code is 0, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/query/toolchains-v1, code is 0, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/reply/cache-v2-738058b200862c23c138.json, code is 1743, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-5a263aabe102780acb0c.json, code is 169, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/reply/codemodel-v2-1c641ffc5f9c727725e6.json, code is 60, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/reply/directory-.-Release-f5ebdc15457944623624.json, code is 14, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/reply/index-2023-06-07T07-29-05-0569.json, code is 108, comment is 0, blank is 0.
+cmake-build-release/.cmake/api/v1/reply/target-kelp-Release-7fef5c878fefb60e3833.json, code is 213, comment is 0, blank is 2.
+cmake-build-release/.cmake/api/v1/reply/toolchains-v1-5e864d45b6495c775afc.json, code is 95, comment is 0, blank is 8.
+cmake-build-release/.ninja_deps, it is a binary file.
+cmake-build-release/.ninja_log, code is 11, comment is 0, blank is 0.
+cmake-build-release/build.ninja, code is 141, comment is 0, blank is 62.
+cmake-build-release/chess_engine, it is a binary file.
+cmake-build-release/cmake_install.cmake, code is 46, comment is 0, blank is 8.
+cmake-build-release/CMakeCache.txt, code is 198, comment is 168, blank is 72.
+cmake-build-release/CMakeFiles/3.24.2/CMakeCCompiler.cmake, code is 55, comment is 0, blank is 17.
+cmake-build-release/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake, code is 64, comment is 0, blank is 19.
+cmake-build-release/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+cmake-build-release/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+cmake-build-release/CMakeFiles/3.24.2/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+cmake-build-release/CMakeFiles/3.24.2/CompilerIdC/a.out, it is a binary file.
+cmake-build-release/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c, code is 638, comment is 61, blank is 139.
+cmake-build-release/CMakeFiles/3.24.2/CompilerIdCXX/a.out, it is a binary file.
+cmake-build-release/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 620, comment is 63, blank is 143.
+cmake-build-release/CMakeFiles/clion-environment.txt, code is 2, comment is 0, blank is 1.
+cmake-build-release/CMakeFiles/clion-Release-log.txt, code is 4, comment is 0, blank is 0.
+cmake-build-release/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+cmake-build-release/CMakeFiles/CMakeOutput.log, code is 353, comment is 8, blank is 30.
+cmake-build-release/CMakeFiles/rules.ninja, code is 44, comment is 0, blank is 20.
+cmake-build-release/CMakeFiles/TargetDirectories.txt, code is 3, comment is 0, blank is 0.
+cmake-build-release/kelp, it is a binary file.
+cmake-build-release/Testing/Temporary/LastTest.log, code is 3, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/query/cache-v2, code is 0, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/query/cmakeFiles-v1, code is 0, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/query/codemodel-v2, code is 0, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/query/toolchains-v1, code is 0, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/reply/cache-v2-3051725d905035484533.json, code is 1743, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/reply/cmakeFiles-v1-290867c9c32ef3a94b5d.json, code is 169, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/reply/codemodel-v2-8822a977694b8e9c5c7f.json, code is 60, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/reply/directory-.-RelWithDebInfo-f5ebdc15457944623624.json, code is 14, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/reply/index-2023-06-07T07-29-05-0568.json, code is 108, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/.cmake/api/v1/reply/target-kelp-RelWithDebInfo-3b454551a5573f511b49.json, code is 213, comment is 0, blank is 2.
+cmake-build-relwithdebinfo/.cmake/api/v1/reply/toolchains-v1-5e864d45b6495c775afc.json, code is 95, comment is 0, blank is 8.
+cmake-build-relwithdebinfo/.ninja_deps, it is a binary file.
+cmake-build-relwithdebinfo/.ninja_log, code is 2, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/build.ninja, code is 141, comment is 0, blank is 62.
+cmake-build-relwithdebinfo/chess_engine, it is a binary file.
+cmake-build-relwithdebinfo/cmake_install.cmake, code is 46, comment is 0, blank is 8.
+cmake-build-relwithdebinfo/CMakeCache.txt, code is 198, comment is 168, blank is 72.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CMakeCCompiler.cmake, code is 55, comment is 0, blank is 17.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake, code is 64, comment is 0, blank is 19.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CompilerIdC/a.out, it is a binary file.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c, code is 638, comment is 61, blank is 139.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CompilerIdCXX/a.out, it is a binary file.
+cmake-build-relwithdebinfo/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 620, comment is 63, blank is 143.
+cmake-build-relwithdebinfo/CMakeFiles/clion-environment.txt, code is 2, comment is 0, blank is 1.
+cmake-build-relwithdebinfo/CMakeFiles/clion-RelWithDebInfo-log.txt, code is 4, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/CMakeFiles/CMakeOutput.log, code is 353, comment is 8, blank is 30.
+cmake-build-relwithdebinfo/CMakeFiles/rules.ninja, code is 44, comment is 0, blank is 20.
+cmake-build-relwithdebinfo/CMakeFiles/TargetDirectories.txt, code is 3, comment is 0, blank is 0.
+cmake-build-relwithdebinfo/Testing/Temporary/LastTest.log, code is 3, comment is 0, blank is 0.
+CMakeLists.txt, code is 6, comment is 0, blank is 6.
+gui/assets/pieces/Chess_bdt60.png, it is a binary file.
+gui/assets/pieces/Chess_blt60.png, it is a binary file.
+gui/assets/pieces/Chess_kdt60.png, it is a binary file.
+gui/assets/pieces/Chess_klt60.png, it is a binary file.
+gui/assets/pieces/Chess_ndt60.png, it is a binary file.
+gui/assets/pieces/Chess_nlt60.png, it is a binary file.
+gui/assets/pieces/Chess_pdt60.png, it is a binary file.
+gui/assets/pieces/Chess_plt60.png, it is a binary file.
+gui/assets/pieces/Chess_qdt60.png, it is a binary file.
+gui/assets/pieces/Chess_qlt60.png, it is a binary file.
+gui/assets/pieces/Chess_rdt60.png, it is a binary file.
+gui/assets/pieces/Chess_rlt60.png, it is a binary file.
+gui/assets/sounds/Capture.mp3, it is a binary file.
+gui/assets/sounds/Capture.ogg, it is a binary file.
+gui/assets/sounds/Move.mp3, it is a binary file.
+gui/assets/sounds/Move.ogg, it is a binary file.
+gui/gui.cpp, code is 163, comment is 3, blank is 37.
+gui/gui.h, code is 39, comment is 1, blank is 13.
+kelp/kelp.cpp, code is 33, comment is 6, blank is 7.
+kelp/kelp.h, code is 24, comment is 4, blank is 10.
+kelp/modules/board/bitboards/bitboard.cpp, code is 80, comment is 4, blank is 18.
+kelp/modules/board/bitboards/bitboard.h, code is 32, comment is 4, blank is 12.
+kelp/modules/board/bitboards/bitboard_attacks.cpp, code is 180, comment is 4, blank is 37.
+kelp/modules/board/bitboards/bitboard_attacks.h, code is 22, comment is 5, blank is 13.
+kelp/modules/board/bitboards/bitboard_moves.cpp, code is 36, comment is 3, blank is 16.
+kelp/modules/board/bitboards/bitboard_moves.h, code is 19, comment is 4, blank is 4.
+kelp/modules/board/bitboards/GenerateMagics.cpp, code is 207, comment is 4, blank is 41.
+kelp/modules/board/bitboards/lookupTable/lookup_tables.cpp, code is 68, comment is 2, blank is 22.
+kelp/modules/board/bitboards/lookupTable/lookup_tables.h, code is 32, comment is 1, blank is 15.
+kelp/modules/board/board.cpp, code is 235, comment is 8, blank is 33.
+kelp/modules/board/board.h, code is 35, comment is 0, blank is 22.
+kelp/modules/board/fen.cpp, code is 84, comment is 4, blank is 19.
+kelp/modules/board/fen.h, code is 21, comment is 5, blank is 9.
+kelp/modules/constants.h, code is 251, comment is 10, blank is 33.
+kelp/modules/evaluator/evaluator.cpp, code is 1, comment is 0, blank is 1.
+kelp/modules/evaluator/evaluator.h, code is 0, comment is 0, blank is 2.
+kelp/modules/move_gen/move_gen.cpp, code is 240, comment is 31, blank is 57.
+kelp/modules/move_gen/move_gen.h, code is 38, comment is 2, blank is 20.
+kelp/modules/search/search.cpp, code is 0, comment is 0, blank is 0.
+kelp/modules/search/search.h, code is 0, comment is 0, blank is 0.
+main.cpp, code is 63, comment is 41, blank is 15.
+===============================================================================
